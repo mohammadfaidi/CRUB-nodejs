@@ -1,0 +1,17 @@
+https://flaviocopes.com/how-to-remove-file-node/
+
+https://code-maven.com/reading-a-file-with-nodejs
+
+
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+readline.question('Who are you?', name => {
+    console.log(`Hey there ${name}!`);
+    readline.close();
+});
+
+
+https://www.codecademy.com/articles/getting-user-input-in-node-js
